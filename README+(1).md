@@ -16,21 +16,15 @@ Project aims to build a CNN based model which can accurately detect melanoma. Me
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from
 the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
-The data set contains the following diseases:
+The data set contains the images of following diseases:
 
 Actinic keratosis Basal cell carcinoma Dermatofibroma Melanoma Nevus Pigmented benign keratosis Seborrheic
 keratosis Squamous cell carcinoma Vascular lesion
 
-Several convolution models were built from scratch and augmentation strategies implemented, 
-before arriving at the final model, which helps to detect melanoma from different types of images 
-provided to it.
 
 ## Conclusions
-
-The class "seborrheic keratosis" comprises the smallest proportion of samples. "Pigmented benign keratosis" and "melanoma" significantly outweigh other classes.
-Following 30 epochs, the final model attains a train accuracy of 73% and validation accuracy of 68%.
-The data augmentation layers with random flipping, rotation, zooming, and addition of dropout layers reduced overfit slightly.
-The implementation of class rebalancing has notably enhanced the model's performance across both training and validation datasets. The ultimate model displayed well-balanced performance, displaying no signs of underfitting or overfitting.
+With  30 epochs, the final model attains a train accuracy and validation accuracy of 72%.The data augmentation layers with random flipping, rotation, zooming, along with  dropout layers reduced overfit slightly.
+The implementation of class rebalancing has notably enhanced the model's performance across both training and validation datasets. The final model shows a  well-balanced performance.
 
 
 ## Technologies Used
@@ -51,4 +45,4 @@ This project was based on International Skin Imaging Collaboration (ISIC) datase
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by Kamar-p - feel free to contact me!
